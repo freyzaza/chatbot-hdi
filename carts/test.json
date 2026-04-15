@@ -1,0 +1,37 @@
+[
+  {
+    "product_name": "Better Botanics Face Wash",
+    "product_url": "https://www.hdi.com/product/BETTER-BOTANICS-FACE-WASH",
+    "image_url": "https://www.hdi.com/img/product/webp/B01115-2.jpg.webp",
+    "quantity": 2,
+    "added_at": "2026-03-31T09:44:04.765894"
+  },
+  {
+    "product_name": "HDI Lozenges Honey Elderflower",
+    "product_url": "https://www.hdi.com/product/hdi-lozenges-honey-elderflower",
+    "image_url": "https://www.hdi.com/img/product/webp/L01009.jpg.webp",
+    "quantity": 1,
+    "added_at": "2026-03-31T09:44:06.680206"
+  },
+  {
+    "product_name": "HDI Naturals™ Clover Honey (500gr)",
+    "product_url": "https://www.hdi.com/product/clover-honey-0.5kg",
+    "image_url": "https://www.hdi.com/img/product/webp/hdi-naturals-clover-honey-500gr.jpg.webp",
+    "quantity": 1,
+    "added_at": "2026-03-31T09:44:11.175369"
+  },
+  {
+    "product_name": "HDI Origins™ Royal Jelly",
+    "product_url": "https://www.hdi.com/product/royal-jelly-150mg-60t",
+    "image_url": "https://www.hdi.com/img/product/webp/hdi-origins-royal-jelly.jpg.webp",
+    "quantity": 1,
+    "added_at": "2026-03-31T09:57:33.917744"
+  },
+  {
+    "product_name": "HDI Origins™ Pollenergy 520",
+    "product_url": "https://www.hdi.com/product/pollenergy-520-90t",
+    "image_url": "https://www.hdi.com/img/product/webp/hdi-origins-pollenergy-520.jpg.webp",
+    "quantity": 1,
+    "added_at": "2026-04-01T14:38:55.646461"
+  }
+]

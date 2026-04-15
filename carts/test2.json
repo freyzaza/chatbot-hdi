@@ -1,0 +1,23 @@
+[
+  {
+    "product_name": "HDI Propoelix™",
+    "product_url": "https://www.hdi.com/product/propoelix-200mg-60-vegekaps",
+    "image_url": "https://www.hdi.com/img/product/webp/hdi-propoelix-60.jpg.webp",
+    "quantity": 1,
+    "added_at": "2026-03-31T10:24:04.919390"
+  },
+  {
+    "product_name": "HDI Propoelix™ Plus",
+    "product_url": "https://www.hdi.com/product/propoelix-plus-60-vegekaps",
+    "image_url": "https://www.hdi.com/img/product/webp/hdi-propoelix-plus-60.jpg.webp",
+    "quantity": 1,
+    "added_at": "2026-03-31T10:24:08.631382"
+  },
+  {
+    "product_name": "HDI Origins™ Royale Jelly",
+    "product_url": "https://www.hdi.com/product/royale-jelly-liquid-150gr",
+    "image_url": "https://www.hdi.com/img/product/webp/hdi-origins-royale-jelly-liquid.jpg.webp",
+    "quantity": 1,
+    "added_at": "2026-03-31T10:24:22.130182"
+  }
+]

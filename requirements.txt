@@ -1,0 +1,7 @@
+google-generativeai
+google-cloud-firestore
+google-cloud-aiplatform
+numpy
+streamlit
+python-dotenv
+pickle

@@ -1,0 +1,7 @@
+.env
+
+draft_chatbot2/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
