@@ -5,3 +5,8 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+documents/
+vectordb_storage/
+
+users.json
