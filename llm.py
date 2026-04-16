@@ -6,7 +6,7 @@ client = genai.Client(api_key=GOOGLE_API_KEY)
 
 # 2. Simpan konfigurasi dalam dict agar bisa digunakan berulang (opsional tapi rapi)
 CONFIG = {
-    "temperature": 0.95,
+    "temperature": 0.3,
     "max_output_tokens": 2048,
 }
 

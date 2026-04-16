@@ -44,6 +44,77 @@ def is_valid_url(url):
     return True
 
 
+def sanitize_input(text: str) -> str:
+    """
+    Sanitasi input user untuk memitigasi prompt injection.
+    Menghapus / menetralisir pola umum yang digunakan untuk injection.
+    """
+    if not text or not isinstance(text, str):
+        return ""
+
+    # Batasi panjang input agar tidak overflow context
+    MAX_INPUT_LENGTH = 1000
+    text = text[:MAX_INPUT_LENGTH]
+
+    # Pola-pola prompt injection umum yang perlu dideteksi
+    INJECTION_PATTERNS = [
+        # Instruksi untuk abaikan prompt sebelumnya
+        r"ignore\s+(all\s+)?(previous|prior|above|earlier)\s+instructions?",
+        r"disregard\s+(all\s+)?(previous|prior|above|earlier)\s+instructions?",
+        r"forget\s+(all\s+)?(previous|prior|above|earlier)\s+instructions?",
+        r"abaikan\s+(semua\s+)?(instruksi|perintah)\s+(sebelumnya|di atas)",
+        # Override role
+        r"you\s+are\s+now\s+",
+        r"kamu\s+(sekarang\s+)?(adalah|berperan\s+sebagai)",
+        r"act\s+as\s+",
+        r"pretend\s+(you\s+are|to\s+be)\s+",
+        r"roleplay\s+as\s+",
+        r"berpura-pura\s+(menjadi|sebagai)",
+        # Inject sistem
+        r"<system>",
+        r"\[system\]",
+        r"system\s*:",
+        r"new\s+instructions?\s*:",
+        r"instruksi\s+baru\s*:",
+        # Jailbreak klasik
+        r"do\s+anything\s+now",
+        r"DAN\b",  # "Do Anything Now" akronim
+        r"jailbreak",
+        r"bypass\s+(your\s+)?(restrictions?|guidelines?|rules?|filter)",
+        # Injeksi via delimiter
+        r"%%PRODUCTS%%",
+        r"%%END_PRODUCTS%%",
+        r"</?(system_instructions|product_context|user_question)>",
+    ]
+
+    injection_found = False
+    for pattern in INJECTION_PATTERNS:
+        if re.search(pattern, text, re.IGNORECASE):
+            injection_found = True
+            break
+
+    if injection_found:
+        # Kembalikan placeholder yang aman — prompt tetap diproses
+        # tapi LLM akan mendeteksinya via instruksi di prompt
+        return f"[POTENTIALLY UNSAFE INPUT DETECTED] {text}"
+
+    return text
+
+
+def sanitize_history(history: list) -> list:
+    """Sanitasi semua pesan dalam conversation history."""
+    if not history:
+        return []
+    sanitized = []
+    for msg in history:
+        if isinstance(msg, dict):
+            sanitized.append({
+                "role": msg.get("role", "user"),
+                "content": sanitize_input(str(msg.get("content", "")))
+            })
+    return sanitized
+
+
 def parse_products_from_answer(raw_answer):
     """
     Pisahkan teks jawaban biasa dari blok JSON produk.
@@ -74,10 +145,13 @@ def parse_products_from_answer(raw_answer):
 
 
 def ask(question, conversation_history=None):
+    # --- Sanitasi input sebelum masuk ke pipeline ---
+    clean_question = sanitize_input(question)
+    clean_history = sanitize_history(conversation_history)
 
-    contexts = retrieve(question, vectordb, TOP_K)
+    contexts = retrieve(clean_question, vectordb, TOP_K)
 
-    prompt = build_prompt(question, contexts, conversation_history)
+    prompt = build_prompt(clean_question, contexts, clean_history)
 
     raw_answer = generate_answer(prompt)
 
