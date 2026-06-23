@@ -13,7 +13,7 @@ CART_API_URL = "http://localhost:5050"
 
 st.set_page_config(page_title="Chatbot RAG", layout="wide")
 
-# ── CSS ───────────────────────────────────────────────────────────────────────
+#CSS
 st.markdown("""
 <style>
 .product-card img {
@@ -81,14 +81,14 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-# ── Init knowledge base ───────────────────────────────────────────────────────
+#Init knowledge base
 if "kb_initialized" not in st.session_state:
     with st.spinner("Building knowledge base..."):
         build_knowledge_base()
     st.session_state.kb_initialized = True
 
 
-# ── Helper: baca cart langsung dari file JSON ─────────────────────────────────
+#Helper: baca cart langsung dari file JSON
 def fetch_cart(username: str) -> list:
     import json, os
     path = os.path.join("carts", f"{username}.json")
@@ -101,7 +101,7 @@ def fetch_cart(username: str) -> list:
         return []
 
 
-# ── Helper: add to cart + langsung update state ───────────────────────────────
+#Helper: add to cart + langsung update state
 def add_to_cart_api(product, username):
     try:
         resp = requests.post(
@@ -126,7 +126,7 @@ def add_to_cart_api(product, username):
         return False, f"❌ Error: {str(e)}"
 
 
-# ── Render kartu produk ───────────────────────────────────────────────────────
+#Render kartu produk
 def render_product_cards(products, username, msg_index):
     if not products:
         return
@@ -171,10 +171,7 @@ def render_product_cards(products, username, msg_index):
                     else:
                         st.error(message)
 
-
-# ══════════════════════════════════════════════════════════════════════════════
 # HALAMAN LOGIN / REGISTER
-# ══════════════════════════════════════════════════════════════════════════════
 def show_login_page():
     st.markdown("<h2 style='text-align:center;margin-top:40px;'>💬 Chatbot RAG</h2>", unsafe_allow_html=True)
     st.markdown("<p style='text-align:center;color:#888;margin-bottom:32px;'>Silakan login untuk melanjutkan</p>", unsafe_allow_html=True)
@@ -199,6 +196,7 @@ def show_login_page():
                         st.session_state.active_session_id = None
                         st.session_state.messages = []
                         st.session_state.cart_items = fetch_cart(username)
+                        st.session_state.language = "id"  # default bahasa Indonesia
                         st.rerun()
                     else:
                         st.error(msg)
@@ -216,22 +214,37 @@ def show_login_page():
                     st.error(msg)
 
 
-# ══════════════════════════════════════════════════════════════════════════════
 # HALAMAN CHAT UTAMA
-# ══════════════════════════════════════════════════════════════════════════════
 def show_chat_page():
     username = st.session_state.username
 
     # Selalu sync cart dari file sebelum render apapun
     st.session_state.cart_items = fetch_cart(username)
 
-    # ── Sidebar ──────────────────────────────────────────────────────────────
+    # Pastikan language selalu ada di session state
+    if "language" not in st.session_state:
+        st.session_state.language = "id"
+
+    #Sidebar
     with st.sidebar:
         st.markdown(f"👤 **{username}**")
         if st.button("Logout", use_container_width=True):
-            for key in ["logged_in", "username", "active_session_id", "messages", "cart_items"]:
+            for key in ["logged_in", "username", "active_session_id", "messages", "cart_items", "language"]:
                 st.session_state.pop(key, None)
             st.rerun()
+
+        st.markdown("---")
+
+        # Pilihan Bahasa
+        st.markdown("**🌐 Bahasa / Language**")
+        language_options = {"🇮🇩 Bahasa Indonesia": "id", "🇬🇧 English": "en"}
+        selected_label = st.selectbox(
+            label="Pilih bahasa",
+            options=list(language_options.keys()),
+            index=0 if st.session_state.language == "id" else 1,
+            label_visibility="collapsed"
+        )
+        st.session_state.language = language_options[selected_label]
 
         st.markdown("---")
 
@@ -271,7 +284,7 @@ def show_chat_page():
                             st.session_state.messages = []
                         st.rerun()
 
-        # ── Keranjang real-time ───────────────────────────────────────────
+        #Keranjang real-time
         st.markdown("---")
         cart_items = st.session_state.get("cart_items", [])
         total_qty = sum(item.get("quantity", 0) for item in cart_items)
@@ -294,14 +307,21 @@ def show_chat_page():
                         unsafe_allow_html=True
                     )
 
-    # ── Area Chat Utama ───────────────────────────────────────────────────────
+    #Area Chat Utama
     active_id = st.session_state.get("active_session_id")
 
     if not active_id:
+        if st.session_state.language == "en":
+            greeting_title = f"Hello, {username}! 👋"
+            greeting_sub = "Start a new chat or select a chat history from the sidebar."
+        else:
+            greeting_title = f"Halo, {username}! 👋"
+            greeting_sub = "Mulai chat baru atau pilih riwayat chat di sidebar."
+
         st.markdown(
             f"<div style='text-align:center;margin-top:120px;'>"
-            f"<h2>Halo, {username}! 👋</h2>"
-            f"<p style='color:#888;font-size:16px;'>Mulai chat baru atau pilih riwayat chat di sidebar.</p>"
+            f"<h2>{greeting_title}</h2>"
+            f"<p style='color:#888;font-size:16px;'>{greeting_sub}</p>"
             f"</div>",
             unsafe_allow_html=True
         )
@@ -319,10 +339,17 @@ def show_chat_page():
             st.write(message["content"])
             if "timestamp" in message:
                 st.caption(f"⏰ {message['timestamp']}")
-            if message["role"] == "assistant" and message.get("products"):
-                render_product_cards(message["products"], username, f"{active_id}_{idx}")
+            if message["role"] == "assistant":
+                if message.get("contexts"):
+                    with st.expander("📚 Context yang digunakan"):
+                        for c in message["contexts"]:
+                            st.write("-", c)
+                if message.get("products"):
+                    render_product_cards(message["products"], username, f"{active_id}_{idx}")
 
-    prompt = st.chat_input("Tanyakan sesuatu...")
+    # Placeholder chat input sesuai bahasa
+    chat_placeholder = "Ask something..." if st.session_state.language == "en" else "Tanyakan sesuatu..."
+    prompt = st.chat_input(chat_placeholder)
 
     if prompt:
         now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -338,9 +365,10 @@ def show_chat_page():
             title = generate_title_from_message(prompt)
             update_session_title(username, active_id, title)
 
-        with st.spinner("Sedang mencari jawaban..."):
+        spinner_text = "Searching for answer..." if st.session_state.language == "en" else "Sedang mencari jawaban..."
+        with st.spinner(spinner_text):
             recent_history = st.session_state.messages[-10:]
-            answer, contexts, products = ask(prompt, recent_history)
+            answer, contexts, products = ask(prompt, recent_history, language=st.session_state.language)
 
         assistant_msg = {
             "role": "assistant",
@@ -364,9 +392,7 @@ def show_chat_page():
         st.rerun()
 
 
-# ══════════════════════════════════════════════════════════════════════════════
 # ROUTING UTAMA
-# ══════════════════════════════════════════════════════════════════════════════
 if not st.session_state.get("logged_in"):
     show_login_page()
 else:

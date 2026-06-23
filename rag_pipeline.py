@@ -78,7 +78,6 @@ def sanitize_input(text: str) -> str:
         r"instruksi\s+baru\s*:",
         # Jailbreak klasik
         r"do\s+anything\s+now",
-        r"DAN\b",  # "Do Anything Now" akronim
         r"jailbreak",
         r"bypass\s+(your\s+)?(restrictions?|guidelines?|rules?|filter)",
         # Injeksi via delimiter
@@ -144,14 +143,14 @@ def parse_products_from_answer(raw_answer):
     return clean_answer, products
 
 
-def ask(question, conversation_history=None):
+def ask(question, conversation_history=None, language="id"):
     # --- Sanitasi input sebelum masuk ke pipeline ---
     clean_question = sanitize_input(question)
     clean_history = sanitize_history(conversation_history)
 
     contexts = retrieve(clean_question, vectordb, TOP_K)
 
-    prompt = build_prompt(clean_question, contexts, clean_history)
+    prompt = build_prompt(clean_question, contexts, clean_history, language=language)
 
     raw_answer = generate_answer(prompt)
 

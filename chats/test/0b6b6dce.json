@@ -1,0 +1,96 @@
+{
+  "session_id": "0b6b6dce",
+  "title": "i have sore throat",
+  "created_at": "2026-04-17 10:02:44",
+  "updated_at": "2026-04-17 10:03:23",
+  "messages": [
+    {
+      "role": "user",
+      "content": "i have sore throat",
+      "timestamp": "2026-04-17 10:02:51"
+    },
+    {
+      "role": "assistant",
+      "content": "We understand you're experiencing a sore throat. We have products that can help soothe and refresh your throat.\n\n**HDI Lozenges Honey Elderflower** and **HDI Lozenges Honey Lemon** are designed to calm and refresh irritated throats. They can help alleviate discomfort caused by seasonal changes, environmental factors, or daily activities.\n\nAdditionally, **HDI Herbal Remedy** offers a natural solution for cold and cough symptoms for the whole family. It contains honey and other natural ingredients that work together to maximize its effects on throat irritation, coughs, and colds. This product is free from artificial sweeteners, colors, and alcohol, making it comfortable for your throat.",
+      "contexts": [
+        "Product: HDI Lozenges Honey Elderflower\nmanfaat: Menenangkan dan menyegarkan tenggorokan yang iritasi\nmanfaat: Membantu mengatasi rasa tidak nyaman di tenggorokan akibat perubahan musim, faktor lingkungan, maupun aktivitas sehari-hari\n",
+        "Product: HDI Lozenges Honey Elderflower\nmanfaat: Menenangkan dan menyegarkan tenggorokan yang iritasi\nmanfaat: Membantu mengatasi rasa tidak nyaman di tenggorokan akibat perubahan musim, faktor lingkungan, maupun aktivitas sehari-hari\n",
+        "Product: HDI Lozenges Honey Lemon\nmanfaat: Menenangkan dan menyegarkan tenggorokan yang iritasi\nmanfaat: Membantu mengatasi rasa tidak nyaman di tenggorokan akibat perubahan musim, faktor lingkungan, maupun aktivitas sehari-hari\n",
+        "Product: HDI Lozenges Honey Lemon\nmanfaat: Menenangkan dan menyegarkan tenggorokan yang iritasi\nmanfaat: Membantu mengatasi rasa tidak nyaman di tenggorokan akibat perubahan musim, faktor lingkungan, maupun aktivitas sehari-hari\n",
+        "Product: HDI Herbal Remedy\ndeskripsi: Solusi Alami Meredakan Gejala Flu dan Batuk untuk Seluruh Keluarga\ndeskripsi: HDI Herbal Remedy tidak hanya mengandung madu, namun juga bahan natural lain yang aman dan bekerja sinergis untuk memaksimalkan efek pada iritasi tenggorokan, batuk & flu. HDI Herbal Remedy bebas dari pemanis, pewarna buatan, dan alkohol, sehingga terasa nyaman di tenggorokan.\n",
+        "Product: HDI Herbal Remedy\ndeskripsi: Solusi Alami Meredakan Gejala Flu dan Batuk untuk Seluruh Keluarga\ndeskripsi: HDI Herbal Remedy tidak hanya mengandung madu, namun juga bahan natural lain yang aman dan bekerja sinergis untuk memaksimalkan efek pada iritasi tenggorokan, batuk & flu. HDI Herbal Remedy bebas dari pemanis, pewarna buatan, dan alkohol, sehingga terasa nyaman di tenggorokan.\n",
+        "Product: HDI Lozenges Honey Lemon\nproduct_url: https://www.hdi.com/product/hdi-lozenges-honey-lemon\nimage_url: https://www.hdi.com/img/product/webp/L01010.jpg.webp\n",
+        "Product: HDI Lozenges Honey Lemon\nproduct_url: https://www.hdi.com/product/hdi-lozenges-honey-lemon\nimage_url: https://www.hdi.com/img/product/webp/L01010.jpg.webp\n",
+        "Product: HDI Lozenges Honey Elderflower\nproduct_url: https://www.hdi.com/product/hdi-lozenges-honey-elderflower \nimage_url: https://www.hdi.com/img/product/webp/L01009.jpg.webp\n",
+        "Product: HDI Lozenges Honey Elderflower\nproduct_url: https://www.hdi.com/product/hdi-lozenges-honey-elderflower \nimage_url: https://www.hdi.com/img/product/webp/L01009.jpg.webp\n",
+        "Product: HDI Lozenges Honey Lemon\nkandungan: Stevia Sebagai pengganti gula alami yang tidak menambah kalori\nkandungan: Madu Menenangkan tenggorokan yang iritasi, meredakan batuk dan mempercepat penyembuhan\nkandungan: Ekstrak Propolis Melawan infeksi di tenggorokan dan meningkatkan sistem kekebalan tubuh\nkandungan: Peppermint Meredakan sakit tenggorokan, memberikan sensasi sejuk dan membuka saluran pernapasan\nkandungan: Minyak Lemon Menyegarkan tenggorokan dengan rasa citrus yang segar\nkandungan: Elderflower Menenangkan tenggorokan yang meradang dan memberikan rasa floral yang menyenangkan\n",
+        "Product: HDI Lozenges Honey Lemon\nkandungan: Stevia Sebagai pengganti gula alami yang tidak menambah kalori\nkandungan: Madu Menenangkan tenggorokan yang iritasi, meredakan batuk dan mempercepat penyembuhan\nkandungan: Ekstrak Propolis Melawan infeksi di tenggorokan dan meningkatkan sistem kekebalan tubuh\nkandungan: Peppermint Meredakan sakit tenggorokan, memberikan sensasi sejuk dan membuka saluran pernapasan\nkandungan: Minyak Lemon Menyegarkan tenggorokan dengan rasa citrus yang segar\nkandungan: Elderflower Menenangkan tenggorokan yang meradang dan memberikan rasa floral yang menyenangkan\n",
+        "Product: HDI Lozenges Honey Lemon\nkandungan: Stevia Sebagai pengganti gula alami yang tidak menambah kalori\nkandungan: Madu Menenangkan tenggorokan yang iritasi, meredakan batuk dan mempercepat penyembuhan\nkandungan: Ekstrak Propolis Melawan infeksi di tenggorokan dan meningkatkan sistem kekebalan tubuh\nkandungan: Peppermint Meredakan sakit tenggorokan, memberikan sensasi sejuk dan membuka saluran pernapasan\nkandungan: Minyak Lemon Menyegarkan tenggorokan dengan rasa citrus yang segar\nkandungan: Elderflower Menenangkan tenggorokan yang meradang dan memberikan rasa floral yang menyenangkan\nkemasan: 12 Lozenges\nmanfaat: Menenangkan dan menyegarkan tenggorokan yang iritasi\nmanfaat: Membantu mengatasi rasa tidak nyaman di tenggorokan akibat perubahan musim, faktor lingkungan, maupun aktivitas sehari-hari\nproduct_url: https://www.hdi.com/product/hdi-lozenges-honey-lemon\nimage_url: https://www.hdi.com/img/product/webp/L01010.jpg.webp\n",
+        "Product: HDI Lozenges Honey Elderflower\nkandungan: Stevia Sebagai pengganti gula alami yang tidak menambah kalori\nkandungan: Madu Menenangkan tenggorokan yang iritasi, meredakan batuk dan mempercepat penyembuhan\nkandungan: Ekstrak Propolis Melawan infeksi di tenggorokan dan meningkatkan sistem kekebalan tubuh\nkandungan: Peppermint Meredakan sakit tenggorokan, memberikan sensasi sejuk dan membuka saluran pernapasan\nkandungan: Minyak Lemon Menyegarkan tenggorokan dengan rasa citrus yang segar\nkandungan: Elderflower Menenangkan tenggorokan yang meradang dan memberikan rasa floral yang menyenangkan\n",
+        "Product: HDI Lozenges Honey Elderflower\nkandungan: Stevia Sebagai pengganti gula alami yang tidak menambah kalori\nkandungan: Madu Menenangkan tenggorokan yang iritasi, meredakan batuk dan mempercepat penyembuhan\nkandungan: Ekstrak Propolis Melawan infeksi di tenggorokan dan meningkatkan sistem kekebalan tubuh\nkandungan: Peppermint Meredakan sakit tenggorokan, memberikan sensasi sejuk dan membuka saluran pernapasan\nkandungan: Minyak Lemon Menyegarkan tenggorokan dengan rasa citrus yang segar\nkandungan: Elderflower Menenangkan tenggorokan yang meradang dan memberikan rasa floral yang menyenangkan\n"
+      ],
+      "products": [
+        {
+          "name": "HDI Lozenges Honey Elderflower",
+          "image_url": "https://www.hdi.com/img/product/webp/L01009.jpg.webp",
+          "product_url": "https://www.hdi.com/product/hdi-lozenges-honey-elderflower"
+        },
+        {
+          "name": "HDI Lozenges Honey Lemon",
+          "image_url": "https://www.hdi.com/img/product/webp/L01010.jpg.webp",
+          "product_url": "https://www.hdi.com/product/hdi-lozenges-honey-lemon"
+        }
+      ],
+      "timestamp": "2026-04-17 10:02:53"
+    },
+    {
+      "role": "user",
+      "content": "can kids consume it?",
+      "timestamp": "2026-04-17 10:03:20"
+    },
+    {
+      "role": "assistant",
+      "content": "Ya, anak-anak dapat mengonsumsi produk kami yang dirancang khusus untuk mereka.\n\nBerdasarkan konteks yang diberikan, berikut adalah produk yang cocok untuk anak-anak:\n\n*   **HDI Kids™ HoneyBee PollenS**: Suplemen bee pollen ini diformulasikan untuk mengoptimalkan tumbuh kembang anak, membantu meningkatkan kemampuan berpikir dan konsentrasi belajar, serta sebagai antioksidan tinggi. Produk ini disajikan dalam bentuk tablet kunyah dengan rasa vanila dan madu yang enak.\n*   **HDI KIDS Gummy Bees**: Produk ini hadir dengan rasa stroberi dan anggur hijau yang disukai anak-anak, menggunakan perasa dan pewarna alami. Tanpa gelatin dan mengandung vitamin C, produk ini membantu memperkuat imunitas tubuh si kecil.\n*   **HDI KIDS Q Bees**: Tablet kunyah ini bermanfaat untuk meningkatkan sistem imun tubuh, mendukung kesehatan dan pertumbuhan tulang anak dengan kandungan kalsium, magnesium, dan kalium, serta meningkatkan perkembangan otak dan konsentrasi.\n*   **HDI KIDS Hunny Bees**: Produk ini diformulasikan khusus untuk meredakan batuk, sakit tenggorokan, dan memperkuat sistem kekebalan anak. Dibuat dari kombinasi bahan-bahan berkualitas tinggi seperti ekstrak propolis, madu clover, ekstrak jahe, ekstrak thyme, dan ekstrak jeruk nipis, produk ini hadir dalam kemasan sachet yang mudah dibawa dan dikonsumsi.",
+      "contexts": [
+        "Product: HDI Kids™ HoneyBee PollenS\nproduct_url: https://www.hdi.com/product/honeybee-pollens-chewable-tablet-60t\nimage_url: https://www.hdi.com/img/product/webp/hdi-kids-honeybee-pollens.jpg.webp\n",
+        "Product: HDI Kids™ HoneyBee PollenS\nproduct_url: https://www.hdi.com/product/honeybee-pollens-chewable-tablet-60t\nimage_url: https://www.hdi.com/img/product/webp/hdi-kids-honeybee-pollens.jpg.webp\n",
+        "Product: HDI KIDS Gummy Bees\nproduct_url: https://www.hdi.com/product/G01006-hdi-kids-gummy-bees\nimage_url: https://www.hdi.com/img/product/webp/G01006.jpg.webp\n",
+        "Product: HDI KIDS Gummy Bees\nproduct_url: https://www.hdi.com/product/G01006-hdi-kids-gummy-bees\nimage_url: https://www.hdi.com/img/product/webp/G01006.jpg.webp\n",
+        "Product: HDI Kids™ HoneyBee PollenS\ndeskripsi: Optimalkan Tumbuh Kembang Anak\ndeskripsi: HDI Kids™ HoneyBee PollenS merupakan suplemen bee pollen yang diformulasikan untuk mengoptimalkan tumbuh kembang buah hati Anda. Buah hati Anda akan menyukai HDI Kids™ HoneyBee PollenS karena disajikan dalam bentuk tablet yang dapat dikunyah dengan rasa vanila dan madu yang enak.\nkemasan: 60 chewable tablet / botol\nmanfaat: Melengkapi asupan nutrisi tumbuh kembang anak\nmanfaat: Membantu meningkatkan kemampuan berpikir dan konsentrasi belajar anak\nmanfaat: Sebagai antioksidan tinggi yang dapat melawan radikal-radikal bebas berbahaya\nproduct_url: https://www.hdi.com/product/honeybee-pollens-chewable-tablet-60t\nimage_url: https://www.hdi.com/img/product/webp/hdi-kids-honeybee-pollens.jpg.webp\n",
+        "Product: HDI KIDS Q Bees\nproduct_url: https://www.hdi.com/product/HDI-KIDS-Q-BEES\nimage_url: https://www.hdi.com/img/product/webp/K01003.jpg.webp\n",
+        "Product: HDI KIDS Q Bees\nproduct_url: https://www.hdi.com/product/HDI-KIDS-Q-BEES\nimage_url: https://www.hdi.com/img/product/webp/K01003.jpg.webp\n",
+        "Product: HDI KIDS Hunny Bees\ndeskripsi: Solusi Praktis untuk Batuk si Kecil\ndeskripsi: Produk yang diformulasikan khusus untuk meredakan batuk, sakit tenggorokan, dan memperkuat sistem kekebalan anak. Dibuat dari kombinasi bahan-bahan berkualitas tinggi dan hadir dalam kemasan sachet dengan dosis tepat untuk anak, sehingga mudah dibawa dan dikonsumsi. Rasanya juga enak dan menyenangkan, sehingga lebih mudah memberikannya kepada anak-anak.\n",
+        "Product: HDI KIDS Hunny Bees\ndeskripsi: Solusi Praktis untuk Batuk si Kecil\ndeskripsi: Produk yang diformulasikan khusus untuk meredakan batuk, sakit tenggorokan, dan memperkuat sistem kekebalan anak. Dibuat dari kombinasi bahan-bahan berkualitas tinggi dan hadir dalam kemasan sachet dengan dosis tepat untuk anak, sehingga mudah dibawa dan dikonsumsi. Rasanya juga enak dan menyenangkan, sehingga lebih mudah memberikannya kepada anak-anak.\n",
+        "Product: HDI KIDS Hunny Bees\ndeskripsi: Solusi Praktis untuk Batuk si Kecil\ndeskripsi: Produk yang diformulasikan khusus untuk meredakan batuk, sakit tenggorokan, dan memperkuat sistem kekebalan anak. Dibuat dari kombinasi bahan-bahan berkualitas tinggi dan hadir dalam kemasan sachet dengan dosis tepat untuk anak, sehingga mudah dibawa dan dikonsumsi. Rasanya juga enak dan menyenangkan, sehingga lebih mudah memberikannya kepada anak-anak.\nkandungan: Ekstrak Propolis (Propoelix™) Mengandung flavonoid yang membantu menguatkan sistem kekebalan tubuh\nkandungan: HDI Naturals™ Clover Honey Menenangkan tenggorokan dan meredakan batuk\nkandungan: Ekstrak Jahe Memiliki sifat antiinflamasi yang membantu mengurangi peradangan pada saluran pernapasan\nkandungan: Ekstrak Thyme Kaya vitamin C dan antioksidan yang membantu melawan infeksi\nkandungan: Ekstrak Jeruk Nipis Meningkatkan produksi sel darah putih yang penting untuk pertahanan tubuh terhadap penyakit\nkemasan: 1 boks isi 15 sachets @ 10 ml.\nmanfaat: Meredakan batuk dan sakit tenggorokan secara efektif\nmanfaat: Meningkatkan sistem kekebalan tubuh anak\nproduct_url: https://www.hdi.com/product/H01027-hdi-kids-hunny-bees\nimage_url: https://www.hdi.com/img/product/webp/H01027-b.jpg.webp\n",
+        "t kunyah\nmanfaat: Meningkatkan sistem imun tubuh\nmanfaat: Mengandung kalsium, magnesium dan kalium untuk membantu menjaga kesehatan dan pertumbuhan tulang anak\nmanfaat: Meningkatkan perkembangan otak dan konsentrasi\nmanfaat: Meningkatkan energi dan stabilitas emosi\nmanfaat: Mendukung kesehatan dan pertumbuhan anak\nproduct_url: https://www.hdi.com/product/HDI-KIDS-Q-BEES\nimage_url: https://www.hdi.com/img/product/webp/K01003.jpg.webp\n",
+        "Product: HDI KIDS Hunny Bees\nproduct_url: https://www.hdi.com/product/H01027-hdi-kids-hunny-bees\nimage_url: https://www.hdi.com/img/product/webp/H01027-b.jpg.webp\n",
+        "Product: HDI KIDS Hunny Bees\nproduct_url: https://www.hdi.com/product/H01027-hdi-kids-hunny-bees\nimage_url: https://www.hdi.com/img/product/webp/H01027-b.jpg.webp\n",
+        "Product: HDI KIDS Gummy Bees\ndeskripsi: Enak dan Sehat Setiap Hari!\ndeskripsi: Dulu, menjaga kesehatan anak bisa jadi tantangan besar. Harus memperkenalkan sayur dan buah, hingga menyiapkan makanan sehat setiap hari. Tapi sekarang, nggak perlu repot lagi!\ndeskripsi: HDI KIDS Gummy Bees hadir dengan rasa stroberi dan anggur hijau yang pasti disukai anak-anak, serta menggunakan perasa dan pewarna alami. Tanpa gelatin dan mengandung vitamin C, produk ini membantu memperkuat imunitas tubuh si kecil. Dengan bahan dasar alami, madu, serta ekstrak stroberi dan anggur hijau, menjadikan HDI KIDS Gummy Bees pilihan nikmat setiap hari.\n",
+        "Product: HDI KIDS Gummy Bees\ndeskripsi: Enak dan Sehat Setiap Hari!\ndeskripsi: Dulu, menjaga kesehatan anak bisa jadi tantangan besar. Harus memperkenalkan sayur dan buah, hingga menyiapkan makanan sehat setiap hari. Tapi sekarang, nggak perlu repot lagi!\ndeskripsi: HDI KIDS Gummy Bees hadir dengan rasa stroberi dan anggur hijau yang pasti disukai anak-anak, serta menggunakan perasa dan pewarna alami. Tanpa gelatin dan mengandung vitamin C, produk ini membantu memperkuat imunitas tubuh si kecil. Dengan bahan dasar alami, madu, serta ekstrak stroberi dan anggur hijau, menjadikan HDI KIDS Gummy Bees pilihan nikmat setiap hari.\n"
+      ],
+      "products": [
+        {
+          "name": "HDI Kids™ HoneyBee PollenS",
+          "image_url": "https://www.hdi.com/img/product/webp/hdi-kids-honeybee-pollens.jpg.webp",
+          "product_url": "https://www.hdi.com/product/honeybee-pollens-chewable-tablet-60t"
+        },
+        {
+          "name": "HDI KIDS Gummy Bees",
+          "image_url": "https://www.hdi.com/img/product/webp/G01006.jpg.webp",
+          "product_url": "https://www.hdi.com/product/G01006-hdi-kids-gummy-bees"
+        },
+        {
+          "name": "HDI KIDS Q Bees",
+          "image_url": "https://www.hdi.com/img/product/webp/K01003.jpg.webp",
+          "product_url": "https://www.hdi.com/product/HDI-KIDS-Q-BEES"
+        },
+        {
+          "name": "HDI KIDS Hunny Bees",
+          "image_url": "https://www.hdi.com/img/product/webp/H01027-b.jpg.webp",
+          "product_url": "https://www.hdi.com/product/H01027-hdi-kids-hunny-bees"
+        }
+      ],
+      "timestamp": "2026-04-17 10:03:23"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "session_id": "f704f6e0",
+  "title": "i have sore throat",
+  "created_at": "2026-04-17 10:00:47",
+  "updated_at": "2026-04-17 10:02:21",
+  "messages": [
+    {
+      "role": "user",
+      "content": "i have sore throat",
+      "timestamp": "2026-04-17 10:02:18"
+    },
+    {
+      "role": "assistant",
+      "content": "I understand you have a sore throat. While I can't provide medical advice, I can offer information about products that might help with throat discomfort.\n\nTo give you the best recommendation, could you please tell me more about your sore throat? For example:\n*   How long have you had it?\n*   Are there any other symptoms you're experiencing?\n*   Are you looking for something to soothe the pain, or perhaps something to help with a cough that might be accompanying it?\n\nOnce I have a bit more information, I can see if there are any relevant products in our offerings that might be suitable for you.",
+      "contexts": [],
+      "products": [],
+      "timestamp": "2026-04-17 10:02:21"
+    }
+  ]
+}

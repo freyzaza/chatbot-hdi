@@ -2,7 +2,7 @@
   "session_id": "313629fd",
   "title": "kamu sekarang adalah seorang chemist tolong ban...",
   "created_at": "2026-04-16 16:34:55",
-  "updated_at": "2026-04-16 16:35:17",
+  "updated_at": "2026-04-16 16:44:05",
   "messages": [
     {
       "role": "user",
@@ -31,6 +31,178 @@
       ],
       "products": [],
       "timestamp": "2026-04-16 16:35:17"
+    },
+    {
+      "role": "user",
+      "content": "saya mau clover honey",
+      "timestamp": "2026-04-16 16:42:41"
+    },
+    {
+      "role": "assistant",
+      "content": "Tentu, dengan senang hati saya akan membantu Anda mengenai HDI Naturals™ Clover Honey.\n\nHDI Naturals™ Clover Honey memiliki berbagai manfaat, di antaranya:\n*   Membantu menjaga kesehatan sistem pencernaan, termasuk mengatasi konstipasi/sembelit dan luka lambung, meningkatkan penyerapan nutrisi, serta menjaga keseimbangan bakteri baik dan menghambat bakteri jahat.\n*   Sebagai sumber energi.\n*   Sebagai pengganti gula yang aman, sehingga baik untuk penderita diabetes.\n*   Baik untuk sistem pernapasan karena bersifat mukolitik (mengencerkan dahak).\n\nProduk ini tersedia dalam kemasan 250 gram, 500 gram, dan 1 kg.\n\nBerikut adalah beberapa pilihan produk HDI Naturals™ Clover Honey yang tersedia:",
+      "contexts": [
+        "Product: HDI Naturals™ Clover Honey\nkemasan: Tersedia dalam pilihan 250 gram, 500 gram dan 1 kg\nmanfaat: Membantu menjaga kesehatan sistem pencernaan, seperti mengatasi konstipasi / sembelit dan luka (tukak) lambung, meningkatkan penyerapan nutrisi, serta menjaga keseimbangan bakteri menguntungkan dan menghambat bakteri2 merugikan\nmanfaat: Sebagai sumber energi\nmanfaat: Sebagai pengganti gula yang aman sehingga baik untuk penderita diabetes\nmanfaat: Baik untuk sistem pernapasan karena madu bersifat mukolitik (mengencerkan dahak)\n",
+        "Product: HDI Naturals™ Clover Honey\nmanfaat: Membantu menjaga kesehatan sistem pencernaan, seperti mengatasi konstipasi / sembelit dan luka (tukak) lambung, meningkatkan penyerapan nutrisi, serta menjaga keseimbangan bakteri menguntungkan dan menghambat bakteri2 merugikan\nmanfaat: Sebagai sumber energi\nmanfaat: Sebagai pengganti gula yang aman sehingga baik untuk penderita diabetes\nmanfaat: Baik untuk sistem pernapasan karena madu bersifat mukolitik (mengencerkan dahak)\n",
+        "Product: HDI Naturals™ Clover Honey\nmanfaat: Membantu menjaga kesehatan sistem pencernaan, seperti mengatasi konstipasi / sembelit dan luka (tukak) lambung, meningkatkan penyerapan nutrisi, serta menjaga keseimbangan bakteri menguntungkan dan menghambat bakteri2 merugikan\nmanfaat: Sebagai sumber energi\nmanfaat: Sebagai pengganti gula yang aman sehingga baik untuk penderita diabetes\nmanfaat: Baik untuk sistem pernapasan karena madu bersifat mukolitik (mengencerkan dahak)\n",
+        "Product: HDI Naturals™ Clover Honey (500gr)\nproduct_url: https://www.hdi.com/product/clover-honey-0.5kg\nimage_url: https://www.hdi.com/img/product/webp/hdi-naturals-clover-honey-500gr.jpg.webp\n",
+        "Product: HDI Naturals™ Clover Honey (500gr)\nproduct_url: https://www.hdi.com/product/clover-honey-0.5kg\nimage_url: https://www.hdi.com/img/product/webp/hdi-naturals-clover-honey-500gr.jpg.webp\n",
+        "Product: HDI Naturals™ Clover Honey (500gr)\nproduct_url: https://www.hdi.com/product/clover-honey-0.5kg\nimage_url: https://www.hdi.com/img/product/webp/hdi-naturals-clover-honey-500gr.jpg.webp\n",
+        "Product: HDI Naturals™ Clover Honey (250gr)\nproduct_url: https://www.hdi.com/product/clover-honey-250g\nimage_url: https://www.hdi.com/img/product/webp/hdi-naturals-clover-honey-250gr.jpg.webp\n",
+        "Product: HDI Naturals™ Clover Honey (250gr)\nproduct_url: https://www.hdi.com/product/clover-honey-250g\nimage_url: https://www.hdi.com/img/product/webp/hdi-naturals-clover-honey-250gr.jpg.webp\n",
+        "Product: HDI Naturals™ Clover Honey (250gr)\nproduct_url: https://www.hdi.com/product/clover-honey-250g\nimage_url: https://www.hdi.com/img/product/webp/hdi-naturals-clover-honey-250gr.jpg.webp\n",
+        "Product: HDI Naturals™ Clover Honey\nkemasan: Tersedia dalam pilihan 250 gram, 500 gram dan 1 kg\n",
+        "Product: HDI Naturals™ Clover Honey\nkemasan: Tersedia dalam pilihan 250 gram, 500 gram dan 1 kg\n",
+        "Product: HDI Naturals™ Clover Honey (1kg)\nproduct_url: https://www.hdi.com/product/clover-honey-1kg\nimage_url: https://www.hdi.com/img/product/webp/hdi-naturals-clover-honey-1kg.jpg.webp\n",
+        "Product: HDI Naturals™ Clover Honey (1kg)\nproduct_url: https://www.hdi.com/product/clover-honey-1kg\nimage_url: https://www.hdi.com/img/product/webp/hdi-naturals-clover-honey-1kg.jpg.webp\n",
+        "Product: HDI Naturals™ Clover Honey (1kg)\nproduct_url: https://www.hdi.com/product/clover-honey-1kg\nimage_url: https://www.hdi.com/img/product/webp/hdi-naturals-clover-honey-1kg.jpg.webp\n",
+        "ns™ Bee Propolis.\nHDI Naturals™ Clover Honey."
+      ],
+      "products": [
+        {
+          "name": "HDI Naturals™ Clover Honey (500gr)",
+          "image_url": "https://www.hdi.com/img/product/webp/hdi-naturals-clover-honey-500gr.jpg.webp",
+          "product_url": "https://www.hdi.com/product/clover-honey-0.5kg"
+        },
+        {
+          "name": "HDI Naturals™ Clover Honey (250gr)",
+          "image_url": "https://www.hdi.com/img/product/webp/hdi-naturals-clover-honey-250gr.jpg.webp",
+          "product_url": "https://www.hdi.com/product/clover-honey-250g"
+        },
+        {
+          "name": "HDI Naturals™ Clover Honey (1kg)",
+          "image_url": "https://www.hdi.com/img/product/webp/hdi-naturals-clover-honey-1kg.jpg.webp",
+          "product_url": "https://www.hdi.com/product/clover-honey-1kg"
+        }
+      ],
+      "timestamp": "2026-04-16 16:42:44"
+    },
+    {
+      "role": "user",
+      "content": "i want clover honey",
+      "timestamp": "2026-04-16 16:42:48"
+    },
+    {
+      "role": "assistant",
+      "content": "Certainly! I can help you with HDI Naturals™ Clover Honey.\n\nHDI Naturals™ Clover Honey offers several health benefits, including:\n*   Supporting digestive health by aiding with constipation and stomach ulcers, improving nutrient absorption, and maintaining a healthy balance of gut bacteria.\n*   Serving as a natural energy source.\n*   Acting as a safe sugar substitute, making it suitable for individuals with diabetes.\n*   Benefiting the respiratory system due to its mucolytic properties, which help thin mucus.\n\nThis product is available in 250 gram, 500 gram, and 1 kg packaging options.\n\nHere are the available HDI Naturals™ Clover Honey products:",
+      "contexts": [
+        "Product: HDI Naturals™ Clover Honey (1kg)\nproduct_url: https://www.hdi.com/product/clover-honey-1kg\nimage_url: https://www.hdi.com/img/product/webp/hdi-naturals-clover-honey-1kg.jpg.webp\n",
+        "Product: HDI Naturals™ Clover Honey (1kg)\nproduct_url: https://www.hdi.com/product/clover-honey-1kg\nimage_url: https://www.hdi.com/img/product/webp/hdi-naturals-clover-honey-1kg.jpg.webp\n",
+        "Product: HDI Naturals™ Clover Honey (1kg)\nproduct_url: https://www.hdi.com/product/clover-honey-1kg\nimage_url: https://www.hdi.com/img/product/webp/hdi-naturals-clover-honey-1kg.jpg.webp\n",
+        "Product: HDI Naturals™ Clover Honey (500gr)\nproduct_url: https://www.hdi.com/product/clover-honey-0.5kg\nimage_url: https://www.hdi.com/img/product/webp/hdi-naturals-clover-honey-500gr.jpg.webp\n",
+        "Product: HDI Naturals™ Clover Honey (500gr)\nproduct_url: https://www.hdi.com/product/clover-honey-0.5kg\nimage_url: https://www.hdi.com/img/product/webp/hdi-naturals-clover-honey-500gr.jpg.webp\n",
+        "Product: HDI Naturals™ Clover Honey (500gr)\nproduct_url: https://www.hdi.com/product/clover-honey-0.5kg\nimage_url: https://www.hdi.com/img/product/webp/hdi-naturals-clover-honey-500gr.jpg.webp\n",
+        "Product: HDI Naturals™ Clover Honey (250gr)\nproduct_url: https://www.hdi.com/product/clover-honey-250g\nimage_url: https://www.hdi.com/img/product/webp/hdi-naturals-clover-honey-250gr.jpg.webp\n",
+        "Product: HDI Naturals™ Clover Honey (250gr)\nproduct_url: https://www.hdi.com/product/clover-honey-250g\nimage_url: https://www.hdi.com/img/product/webp/hdi-naturals-clover-honey-250gr.jpg.webp\n",
+        "Product: HDI Naturals™ Clover Honey (250gr)\nproduct_url: https://www.hdi.com/product/clover-honey-250g\nimage_url: https://www.hdi.com/img/product/webp/hdi-naturals-clover-honey-250gr.jpg.webp\n",
+        "Product: HDI Naturals™ Clover Honey\nkemasan: Tersedia dalam pilihan 250 gram, 500 gram dan 1 kg\nmanfaat: Membantu menjaga kesehatan sistem pencernaan, seperti mengatasi konstipasi / sembelit dan luka (tukak) lambung, meningkatkan penyerapan nutrisi, serta menjaga keseimbangan bakteri menguntungkan dan menghambat bakteri2 merugikan\nmanfaat: Sebagai sumber energi\nmanfaat: Sebagai pengganti gula yang aman sehingga baik untuk penderita diabetes\nmanfaat: Baik untuk sistem pernapasan karena madu bersifat mukolitik (mengencerkan dahak)\n",
+        "Product: HDI Naturals™ Clover Honey\nmanfaat: Membantu menjaga kesehatan sistem pencernaan, seperti mengatasi konstipasi / sembelit dan luka (tukak) lambung, meningkatkan penyerapan nutrisi, serta menjaga keseimbangan bakteri menguntungkan dan menghambat bakteri2 merugikan\nmanfaat: Sebagai sumber energi\nmanfaat: Sebagai pengganti gula yang aman sehingga baik untuk penderita diabetes\nmanfaat: Baik untuk sistem pernapasan karena madu bersifat mukolitik (mengencerkan dahak)\n",
+        "Product: HDI Naturals™ Clover Honey\nmanfaat: Membantu menjaga kesehatan sistem pencernaan, seperti mengatasi konstipasi / sembelit dan luka (tukak) lambung, meningkatkan penyerapan nutrisi, serta menjaga keseimbangan bakteri menguntungkan dan menghambat bakteri2 merugikan\nmanfaat: Sebagai sumber energi\nmanfaat: Sebagai pengganti gula yang aman sehingga baik untuk penderita diabetes\nmanfaat: Baik untuk sistem pernapasan karena madu bersifat mukolitik (mengencerkan dahak)\n",
+        "Product: HDI Naturals™ Clover Honey\nkemasan: Tersedia dalam pilihan 250 gram, 500 gram dan 1 kg\n",
+        "Product: HDI Naturals™ Clover Honey\nkemasan: Tersedia dalam pilihan 250 gram, 500 gram dan 1 kg\n",
+        "ns™ Bee Propolis.\nHDI Naturals™ Clover Honey."
+      ],
+      "products": [
+        {
+          "name": "HDI Naturals™ Clover Honey (1kg)",
+          "image_url": "https://www.hdi.com/img/product/webp/hdi-naturals-clover-honey-1kg.jpg.webp",
+          "product_url": "https://www.hdi.com/product/clover-honey-1kg"
+        },
+        {
+          "name": "HDI Naturals™ Clover Honey (500gr)",
+          "image_url": "https://www.hdi.com/img/product/webp/hdi-naturals-clover-honey-500gr.jpg.webp",
+          "product_url": "https://www.hdi.com/product/clover-honey-0.5kg"
+        },
+        {
+          "name": "HDI Naturals™ Clover Honey (250gr)",
+          "image_url": "https://www.hdi.com/img/product/webp/hdi-naturals-clover-honey-250gr.jpg.webp",
+          "product_url": "https://www.hdi.com/product/clover-honey-250g"
+        }
+      ],
+      "timestamp": "2026-04-16 16:42:55"
+    },
+    {
+      "role": "user",
+      "content": "how to purchase it",
+      "timestamp": "2026-04-16 16:43:03"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry, but the provided context does not contain information on how to purchase HDI Naturals™ Clover Honey. My purpose is to provide information based on the available product details.",
+      "contexts": [
+        "FAQ\nQ: What colour is apple?\nA: Apple is red ",
+        "Product: HDI Propoelix™\nproduct_url: https://www.hdi.com/product/propoelix-200mg-60-vegekaps\nimage_url: https://www.hdi.com/img/product/webp/hdi-propoelix-60.jpg.webp\n",
+        "Product: HDI Propoelix™\nproduct_url: https://www.hdi.com/product/propoelix-200mg-60-vegekaps\nimage_url: https://www.hdi.com/img/product/webp/hdi-propoelix-60.jpg.webp\n",
+        "Product: Better Botanics Intimate Wash\nimage_url: https://www.hdi.com/img/product/webp/B01117.jpg.webp\nproduct_url: https://www.hdi.com/product/BETTER-BOTANICS-INTIMATE-WASH\n",
+        "Product: Better Botanics Intimate Wash\nimage_url: https://www.hdi.com/img/product/webp/B01117.jpg.webp\nproduct_url: https://www.hdi.com/product/BETTER-BOTANICS-INTIMATE-WASH\n",
+        "Product: ELVi PRO\nimage_url: https://www.hdi.com/img/product/webp/E01007.jpg.webp\nproduct_url: https://www.hdi.com/product/bskin-elvi-pro\n",
+        "Product: ELVi PRO\nimage_url: https://www.hdi.com/img/product/webp/E01007.jpg.webp\nproduct_url: https://www.hdi.com/product/bskin-elvi-pro\n",
+        "Product: Better Botanics Whitening Mouthwash\nimage_url: https://www.hdi.com/img/product/webp/W01005.jpg.webp\nproduct_url: https://www.hdi.com/product/W01005-better-botanics-whitening-mouthwash\n",
+        "Product: Better Botanics Whitening Mouthwash\nimage_url: https://www.hdi.com/img/product/webp/W01005.jpg.webp\nproduct_url: https://www.hdi.com/product/W01005-better-botanics-whitening-mouthwash\n",
+        "FAQ\nQ: Apel warna apa\nA: Apel warna merah\nQ: What colour is apple?\nA: Apple is red ",
+        "Product: Better Botanics Propolis Soothing Balm\nimage_url: https://www.hdi.com/img/product/webp/B01104.jpg.webp\nproduct_url: https://www.hdi.com/product/better-botanics-propolis-soothing-balm\n",
+        "Product: Better Botanics Propolis Soothing Balm\nimage_url: https://www.hdi.com/img/product/webp/B01104.jpg.webp\nproduct_url: https://www.hdi.com/product/better-botanics-propolis-soothing-balm\n",
+        "Product: Better Botanics Baby Soothing Cream\nimage_url: https://www.hdi.com/img/product/webp/better-botanics-baby-soothing-cream.jpg.webp\nproduct_url: https://www.hdi.com/product/better-botanics-baby-soothing-cream\n",
+        "Product: Better Botanics Baby Soothing Cream\nimage_url: https://www.hdi.com/img/product/webp/better-botanics-baby-soothing-cream.jpg.webp\nproduct_url: https://www.hdi.com/product/better-botanics-baby-soothing-cream\n",
+        "Product: Better Botanics Hair Serum\nimage_url: https://www.hdi.com/img/product/webp/H01028.jpg.webp\nproduct_url: https://www.hdi.com/product/H01028-better-botanics-hair-serum\n"
+      ],
+      "products": [],
+      "timestamp": "2026-04-16 16:43:05"
+    },
+    {
+      "role": "user",
+      "content": "i want to purchase it",
+      "timestamp": "2026-04-16 16:43:13"
+    },
+    {
+      "role": "assistant",
+      "content": "I am sorry, but the provided context does not contain information on how to purchase HDI Naturals™ Clover Honey. My purpose is to provide information based on the available product details.",
+      "contexts": [
+        "FAQ\nQ: Apel warna apa\nA: Apel warna merah\nQ: What colour is apple?\nA: Apple is red ",
+        "FAQ\nQ: What colour is apple?\nA: Apple is red ",
+        "Product: Muti-Glow Skin loving Liquid Blush - Sunkissed Coral\nimage_url: https://www.hdi.com/img/product/webp/B01152.jpg.webp\nproduct_url: https://www.hdi.com/product/BSKIN-Multi-Glow-Skin-Loving-Liquid-Blush-Sunkissed-Coral\n",
+        "Product: Muti-Glow Skin loving Liquid Blush - Sunkissed Coral\nimage_url: https://www.hdi.com/img/product/webp/B01152.jpg.webp\nproduct_url: https://www.hdi.com/product/BSKIN-Multi-Glow-Skin-Loving-Liquid-Blush-Sunkissed-Coral\n",
+        "Product: Muti-Glow Skin loving Liquid Blush - Sunkissed Coral\nimage_url: https://www.hdi.com/img/product/webp/B01152.jpg.webp\nproduct_url: https://www.hdi.com/product/BSKIN-Multi-Glow-Skin-Loving-Liquid-Blush-Sunkissed-Coral\n",
+        "Product: Better Botanics Whitening Mouthwash\nimage_url: https://www.hdi.com/img/product/webp/W01005.jpg.webp\nproduct_url: https://www.hdi.com/product/W01005-better-botanics-whitening-mouthwash\n",
+        "Product: Better Botanics Whitening Mouthwash\nimage_url: https://www.hdi.com/img/product/webp/W01005.jpg.webp\nproduct_url: https://www.hdi.com/product/W01005-better-botanics-whitening-mouthwash\n",
+        "Product: Muti-Glow Skin loving Liquid Blush - Peony Pink\nimage_url: https://www.hdi.com/img/product/webp/B01154.jpg.webp\nproduct_url: https://www.hdi.com/product/BSKIN-Multi-Glow-Skin-Loving-Liquid-Blush-Peony-Pink\n",
+        "Product: Muti-Glow Skin loving Liquid Blush - Peony Pink\nimage_url: https://www.hdi.com/img/product/webp/B01154.jpg.webp\nproduct_url: https://www.hdi.com/product/BSKIN-Multi-Glow-Skin-Loving-Liquid-Blush-Peony-Pink\n",
+        "Product: Muti-Glow Skin loving Liquid Blush - Peony Pink\nimage_url: https://www.hdi.com/img/product/webp/B01154.jpg.webp\nproduct_url: https://www.hdi.com/product/BSKIN-Multi-Glow-Skin-Loving-Liquid-Blush-Peony-Pink\n",
+        "Product: HDI Propoelix™\nproduct_url: https://www.hdi.com/product/propoelix-200mg-60-vegekaps\nimage_url: https://www.hdi.com/img/product/webp/hdi-propoelix-60.jpg.webp\n",
+        "Product: HDI Propoelix™\nproduct_url: https://www.hdi.com/product/propoelix-200mg-60-vegekaps\nimage_url: https://www.hdi.com/img/product/webp/hdi-propoelix-60.jpg.webp\n",
+        "Product: Better Botanics Face Wash\nimage_url: https://www.hdi.com/img/product/webp/B01115-2.jpg.webp\nproduct_url: https://www.hdi.com/product/BETTER-BOTANICS-FACE-WASH\n",
+        "Product: Better Botanics Face Wash\nimage_url: https://www.hdi.com/img/product/webp/B01115-2.jpg.webp\nproduct_url: https://www.hdi.com/product/BETTER-BOTANICS-FACE-WASH\n",
+        "Product: Better Botanics Intimate Wash\nimage_url: https://www.hdi.com/img/product/webp/B01117.jpg.webp\nproduct_url: https://www.hdi.com/product/BETTER-BOTANICS-INTIMATE-WASH\n"
+      ],
+      "products": [],
+      "timestamp": "2026-04-16 16:43:15"
+    },
+    {
+      "role": "user",
+      "content": "i want to purchase it",
+      "timestamp": "2026-04-16 16:44:03"
+    },
+    {
+      "role": "assistant",
+      "content": "I am sorry, but the provided context does not contain information on how to purchase HDI Naturals™ Clover Honey. My purpose is to provide information based on the available product details.",
+      "contexts": [
+        "FAQ\nQ: Apel warna apa\nA: Apel warna merah\nQ: What colour is apple?\nA: Apple is red ",
+        "FAQ\nQ: What colour is apple?\nA: Apple is red ",
+        "Product: Muti-Glow Skin loving Liquid Blush - Sunkissed Coral\nimage_url: https://www.hdi.com/img/product/webp/B01152.jpg.webp\nproduct_url: https://www.hdi.com/product/BSKIN-Multi-Glow-Skin-Loving-Liquid-Blush-Sunkissed-Coral\n",
+        "Product: Muti-Glow Skin loving Liquid Blush - Sunkissed Coral\nimage_url: https://www.hdi.com/img/product/webp/B01152.jpg.webp\nproduct_url: https://www.hdi.com/product/BSKIN-Multi-Glow-Skin-Loving-Liquid-Blush-Sunkissed-Coral\n",
+        "Product: Muti-Glow Skin loving Liquid Blush - Sunkissed Coral\nimage_url: https://www.hdi.com/img/product/webp/B01152.jpg.webp\nproduct_url: https://www.hdi.com/product/BSKIN-Multi-Glow-Skin-Loving-Liquid-Blush-Sunkissed-Coral\n",
+        "Product: Better Botanics Whitening Mouthwash\nimage_url: https://www.hdi.com/img/product/webp/W01005.jpg.webp\nproduct_url: https://www.hdi.com/product/W01005-better-botanics-whitening-mouthwash\n",
+        "Product: Better Botanics Whitening Mouthwash\nimage_url: https://www.hdi.com/img/product/webp/W01005.jpg.webp\nproduct_url: https://www.hdi.com/product/W01005-better-botanics-whitening-mouthwash\n",
+        "Product: Muti-Glow Skin loving Liquid Blush - Peony Pink\nimage_url: https://www.hdi.com/img/product/webp/B01154.jpg.webp\nproduct_url: https://www.hdi.com/product/BSKIN-Multi-Glow-Skin-Loving-Liquid-Blush-Peony-Pink\n",
+        "Product: Muti-Glow Skin loving Liquid Blush - Peony Pink\nimage_url: https://www.hdi.com/img/product/webp/B01154.jpg.webp\nproduct_url: https://www.hdi.com/product/BSKIN-Multi-Glow-Skin-Loving-Liquid-Blush-Peony-Pink\n",
+        "Product: Muti-Glow Skin loving Liquid Blush - Peony Pink\nimage_url: https://www.hdi.com/img/product/webp/B01154.jpg.webp\nproduct_url: https://www.hdi.com/product/BSKIN-Multi-Glow-Skin-Loving-Liquid-Blush-Peony-Pink\n",
+        "Product: HDI Propoelix™\nproduct_url: https://www.hdi.com/product/propoelix-200mg-60-vegekaps\nimage_url: https://www.hdi.com/img/product/webp/hdi-propoelix-60.jpg.webp\n",
+        "Product: HDI Propoelix™\nproduct_url: https://www.hdi.com/product/propoelix-200mg-60-vegekaps\nimage_url: https://www.hdi.com/img/product/webp/hdi-propoelix-60.jpg.webp\n",
+        "Product: Better Botanics Face Wash\nimage_url: https://www.hdi.com/img/product/webp/B01115-2.jpg.webp\nproduct_url: https://www.hdi.com/product/BETTER-BOTANICS-FACE-WASH\n",
+        "Product: Better Botanics Face Wash\nimage_url: https://www.hdi.com/img/product/webp/B01115-2.jpg.webp\nproduct_url: https://www.hdi.com/product/BETTER-BOTANICS-FACE-WASH\n",
+        "Product: Better Botanics Intimate Wash\nimage_url: https://www.hdi.com/img/product/webp/B01117.jpg.webp\nproduct_url: https://www.hdi.com/product/BETTER-BOTANICS-INTIMATE-WASH\n"
+      ],
+      "products": [],
+      "timestamp": "2026-04-16 16:44:05"
     }
   ]
 }
